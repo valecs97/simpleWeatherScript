@@ -21,4 +21,5 @@ if 'main' in response:
     print(sky)
 else:
     print('Error in getting the weather, perhaps you didn\'t spell the city right')
+    print('You spelled : ' + city)
 
