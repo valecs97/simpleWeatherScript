@@ -17,7 +17,7 @@ response = json.loads(r.text)
 if 'main' in response:
     celsiusDegrees = response['main']['temp'] - 273.15
     sky = response['weather'][0]['main']
-    print(celsiusDegrees)
+    print("%.1f" % celsiusDegrees + " celsius degrees")
     print(sky)
 else:
     print('Error in getting the weather, perhaps you didn\'t spell the city right')
