@@ -19,7 +19,7 @@ if 'main' in response:
     sky = response['weather'][0]['main']
     print("%.1f" % celsiusDegrees + " celsius degrees")
     print(sky)
-    print('\nWebhook test')
+    print('\nWebhook test 2')
 else:
     print('Error in getting the weather, perhaps you didn\'t spell the city right')
     print('(1)You spelled : ' + city)
